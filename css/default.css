@@ -463,13 +463,13 @@ button,
 input[type="submit"],
 input[type="reset"],
 input[type="button"] {
-   font: 16px/30px 'opensans-bold', sans-serif;
+   font: 16px/16px 'opensans-bold', sans-serif;
    background: #11ABB0;
    display: inline-block;
 	text-decoration: none;
    letter-spacing: 0;
    color: #fff;
-	padding: 12px 20px;
+	padding: 5px 10px;
 	margin-bottom: 18px;
    border: none;
    cursor: pointer;
@@ -535,7 +535,7 @@ input[type="email"],
 textarea,
 select {
    display: block;
-   padding: 18px 15px;
+   padding: 5px 10px;
    margin: 0 0 24px 0;
    border: 0;
    outline: none;
@@ -543,7 +543,7 @@ select {
    min-width: 225px;
 	max-width: 100%;
    font-size: 15px;
-   line-height: 24px;
+   line-height: 15px;
 	color: #647373;
 	background: #D3D9D9;
 
