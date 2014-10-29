@@ -1,3 +1,6 @@
+<?php
+   $home = true;
+?>
 <!DOCTYPE html>
 <!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
 <!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
@@ -38,22 +41,7 @@
    ================================================== -->
    <header id="home">
 
-      <nav id="nav-wrap">
-
-         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
-
-         <ul id="nav" class="nav">
-            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
-            <li><a class="smoothscroll" href="#about">A propos</a></li>
-	         <li><a class="smoothscroll" href="#resume">CV</a></li>
-            <!-- <li><a class="smoothscroll" href="#portfolio">Works</a></li>
-            <li><a class="smoothscroll" href="#testimonials">Testimonials</a></li> -->
-            <li><a class="smoothscroll" href="#contact">Contact</a></li>
-            <li><a href="blog.html">Blog</a></li>
-         </ul> <!-- end #nav -->
-
-      </nav> <!-- end #nav-wrap -->
+      <?php include("menu.php"); ?>
 
       <div class="row banner">
          <div class="banner-text">
@@ -62,10 +50,7 @@
             <h3><span>Élève ingénieur en Génie Informatique <br />à l'Université de Technologie de Compiègne</span></h3>
             <hr />
             <ul class="social">
-               <li><a href="http://fb.com/alexis.schad" target="_blank" ><i class="fa fa-facebook"></i></a></li>
-               <li><a href="http://github.com/schadocalex" target="_blank" ><i class="fa fa-github"></i></a></li>
-               <li><a href="mailto:schadoc_alex@hotmail.fr"><i class="fa fa-envelope-o"></i></a></li>
-               <li><a href="http://www.utc.fr/" target="_blank" ><i class="fa fa-university"></i></a></li>
+               <?php include("social_links.php"); ?>
             </ul>
          </div>
       </div>
@@ -784,34 +769,9 @@
 
    </section> <!-- Contact Section End-->
 
-
-   <!-- footer
-   ================================================== -->
-   <footer>
-
-      <div class="row">
-
-         <div class="twelve columns">
-
-            <ul class="social-links">
-               <li><a href="http://fb.com/alexis.schad" target="_blank" ><i class="fa fa-facebook"></i></a></li>
-               <li><a href="http://github.com/schadocalex" target="_blank" ><i class="fa fa-github"></i></a></li>
-               <li><a href="mailto:schadoc_alex@hotmail.fr"><i class="fa fa-envelope-o"></i></a></li>
-               <li><a href="http://www.utc.fr/" target="_blank" ><i class="fa fa-university"></i></a></li>
-            </ul>
-
-            <ul class="copyright">
-               <li>Développé par Alexis Schad</li>
-               <li>Webdesign de <a title="Styleshout" href="http://www.styleshout.com/">Styleshout</a></li>   
-            </ul>
-
-         </div>
-
-         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
-
-      </div>
-
-   </footer> <!-- Footer End-->
+<?php
+   include('footer.php');
+?>
 
    <!-- Java Script
    ================================================== -->
