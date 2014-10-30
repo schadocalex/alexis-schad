@@ -49,7 +49,7 @@
 			active_section = $(this);
 			if (direction === "up") active_section = active_section.prev();
 
-			var active_link = $('#nav-wrap a[href="index.php#' + active_section.attr("id") + '"]');
+			var active_link = $('#nav-wrap a[href="Home#' + active_section.attr("id") + '"]');
 
          navigation_links.parent().removeClass("current");
 			active_link.parent().addClass("current");

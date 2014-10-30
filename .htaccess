@@ -1,0 +1,13 @@
+#Order Allow,Deny
+RewriteEngine on
+
+ErrorDocument 401 /dev/alexis-schad/Home
+ErrorDocument 403 /dev/alexis-schad/Home
+ErrorDocument 404 /dev/alexis-schad/Home
+ErrorDocument 500 /dev/alexis-schad/Home
+
+DirectoryIndex /dev/alexis-schad/Home [L]
+
+RewriteRule ^$ /dev/alexis-schad/Home [R]
+RewriteRule ^Home$ /dev/alexis-schad/home.php [L]
+RewriteRule ^Blog$ /dev/alexis-schad/blog.php [L]
