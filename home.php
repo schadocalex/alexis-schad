@@ -68,7 +68,7 @@
    <section id="resume">
 
       <!-- Education
-      ----------------------------------------------- -->
+      ---------------------------------------------- -->
       <div class="row education">
 
          <div class="three columns header-col">
