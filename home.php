@@ -653,7 +653,7 @@
 				   </form> <!-- Form End -->
 
                <!-- contact-warning -->
-               <div id="message-warning"> Erreur</div>
+               <div id="message-warning">Erreur</div>
                <!-- contact-success -->
 				   <div id="message-success">
                   <i class="fa fa-check"></i>Votre message a été envoyé, merci !<br>
@@ -667,42 +667,22 @@
                <div class="widget widget_contact">
                   <h4>Adresse</h4>
                   <p class="address">
-                     Alexis Schad<br>
-                     105 Allée de Montaran <br>
-                     45770 Saran<br>
+                     16B Rue Vermenton<br/>
+                     60200 Compiègne
+                  </p>
+               </div>
+               <div class="widget widget_contact">
+                  <h4>Adresse email</h4>
+                  <p class="address">
+                     schadoc_alex@hotmail.fr
                   </p>
                </div>
                <div class="widget widget_contact">
                   <h4>Téléphone</h4>
                   <p class="address">
-                     07-70-27-84-04
+                     07.70.27.84.04
                   </p>
                </div>
-
-               <!-- <div class="widget widget_tweets">
-
-                  <h4 class="widget-title">Latest Tweets</h4>
-
-                  <ul id="twitter">
-                     <li>
-                        <span>
-                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
-                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">2 Days Ago</a></b>
-                     </li>
-                     <li>
-                        <span>
-                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
-                        eaque ipsa quae ab illo inventore veritatis et quasi
-                        <a href="#">http://t.co/CGIrdxIlI3</a>
-                        </span>
-                        <b><a href="#">3 Days Ago</a></b>
-                     </li>
-                  </ul>
-
-		         </div> -->
 
             </aside>
 
